@@ -15,7 +15,7 @@ class ChessGame:
         return board
 
     def print_board(self):
-        for row in self.board:
+         while row in self.board:
             print(" ".join(row))
 
     def move_piece(self, start, end):
