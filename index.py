@@ -26,7 +26,7 @@ class ChessGame:
         self.board[end_row][end_col] = piece
 
     def play(self):
-        while False:
+        while True:
             print(f"{self.current_player}'s turn")
             self.print_board()
             start = input("Enter start position (row col): ").split()
