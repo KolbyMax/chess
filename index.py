@@ -14,7 +14,7 @@ class ChessGame:
         board[7] = ["R", "N", "B", "Q", "K", "B", "N", "R"]
         return board
 
-    def print_board(self):
+    def print_board(selfy):
          while row in self.board:
             print(" ".join(row))
 
